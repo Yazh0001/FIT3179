@@ -23,7 +23,7 @@
         "size": {
           "field": "population",
           "type": "quantitative",
-          "scale": {"domain": [10000, 10000000]}
+          "scale": {"domain": [5000000, 20000000]}
         }
       }
     }
