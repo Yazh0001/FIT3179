@@ -12,7 +12,10 @@
 	width: 800px;*/
 }
 
-head{text-align: center;}
+head{
+text-align: center;
+background-color: lightgray;
+}
 
 body{
     background-color: lightgray;
