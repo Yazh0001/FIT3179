@@ -15,11 +15,11 @@
 head{
 font-size: 72;
 text-align: center;
-background-color: lightblue;
+background-color: lightgray;
 }
 
 body{
-    background-color: lightblue;
+    background-color: lightgray;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
 }
