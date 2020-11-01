@@ -21,14 +21,19 @@
   
   var vis1 = "https://raw.githubusercontent.com/Yazh0001/FIT3179/main/pop-veg.json";
   
+  var vis2 = "https://raw.githubusercontent.com/Yazh0001/FIT3179/main/donut chart.json"
+  
   vegaEmbed('#vis1', vis1).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
-  
+ 
+  vegaEmbed('#vis2', vis2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+   
   
 </script>
-  
-<p>The world's population has and continues to grow exponentially.</p>
+ <p>Asia comprises more than half of the entire world's population.</p>
 
 </body>
 </html>
