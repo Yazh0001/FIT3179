@@ -17,13 +17,13 @@ font-size: 100px;
 }
 
 head{
-font-size: 72;
+font-size: 40px;
 text-align: center;
 background-color: lightgray;
 }
 
 body{
-    font-size: 50px;
+    font-size: 40px;
     background-color: lightgray;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
