@@ -2,19 +2,18 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "data": {
     "values": [
-      {"category": "Asia", "value": 4641054775},
-      {"category": "Africa", "value": 1340598147},
-      {"category": "Europe", "value": 747636026},
-      {"category": "Latin America", "value": 653962331},
-      {"category": "North America", "value": 368869647},
-      {"category": "Oceania", "value": 42677813}
+      {"Region": "Asia", "value": 4641054775},
+      {"Region": "Africa", "value": 1340598147},
+      {"Region": "Europe", "value": 747636026},
+      {"Region": "Latin America", "value": 653962331},
+      {"Region": "North America", "value": 368869647},
+      {"Region": "Oceania", "value": 42677813}
     ]
   },
   "mark": {"type": "arc", "innerRadius": 50},
   "encoding": {
     "theta": {"field": "value", "type": "quantitative"},
-    "color": {"field": "category", "type": "nominal"}
+    "color": {"field": "Region", "type": "nominal"}
   },
-  "view": {"stroke": null},
-  "config": {}
+  "view": {"stroke": null}
 }
